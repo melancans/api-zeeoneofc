@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/masuk', (req, res) => {
-    res.sendFile(__path + '/views/data.html')
+    res.sendFile(__path + '/views/masuk.html')
 })
 
 router.get('/config', (req, res) => {
