@@ -11,6 +11,10 @@ router.get('/masuk', (req, res) => {
     res.sendFile(__path + '/views/masuk.html')
 })
 
+router.get('/admin', (req, res) => {
+    res.sendFile(__path + '/views/admin.html')
+})
+
 router.get('/config', (req, res) => {
     config = {
         status: true,
