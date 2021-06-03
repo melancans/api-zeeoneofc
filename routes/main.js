@@ -7,6 +7,10 @@ router.get('/', (req, res) => {
     res.sendFile(__path + '/views/index.html')
 })
 
+router.get('/masuk', (req, res) => {
+    res.sendFile(__path + '/views/data.html')
+})
+
 router.get('/config', (req, res) => {
     config = {
         status: true,
